@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume Template – Script Unit Tests</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        margin: 2rem;
+        background: #0b1020;
+        color: #f5f5f5;
+      }
+      .result-pass {
+        color: #22c55e;
+      }
+      .result-fail {
+        color: #ef4444;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resume Template – Script Unit Tests</h1>
+    <p>Open this page in a browser to run the tests.</p>
+
+    <section>
+      <h2>Fixture</h2>
+      <p>
+        Footer snippet with <code>id="current-year"</code> span used by <code>script.js</code>:
+      </p>
+      <footer>
+        © <span id="current-year"></span> Test Name. Built with a simple HTML/CSS résumé template.
+      </footer>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <ul id="test-results"></ul>
+    </section>
+
+    <!-- Load the actual production script so we test the real behavior -->
+    <script src="../script.js"></script>
+    <!-- Load the test definitions -->
+    <script src="script.test.js"></script>
+  </body>
+</html>
