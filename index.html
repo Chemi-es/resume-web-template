@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Résumé – Your Name</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="name">Your Name</h1>
+        <p class="tagline">Job Title · Short professional tagline</p>
+        <ul class="contact">
+          <li><a href="mailto:you@example.com">you@example.com</a></li>
+          <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li>City, Country</li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container">
+      <section aria-labelledby="summary-heading" class="card">
+        <h2 id="summary-heading">Summary</h2>
+        <p>
+          Brief 2–3 sentence summary of your experience, key strengths, and what
+          you are looking for.
+        </p>
+      </section>
+
+      <section aria-labelledby="skills-heading" class="card">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>JavaScript / TypeScript</li>
+              <li>Python</li>
+              <li>Go</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Frameworks</h3>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Django</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <ul>
+              <li>Git &amp; GitHub</li>
+              <li>Docker</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="experience-heading" class="card">
+        <h2 id="experience-heading">Experience</h2>
+
+        <article class="item">
+          <header class="item-header">
+            <div>
+              <h3>Job Title</h3>
+              <p class="company">Company Name · City, Country</p>
+            </div>
+            <p class="dates">Jan 2020 – Present</p>
+          </header>
+          <ul>
+            <li>Key accomplishment or responsibility, focusing on impact.</li>
+            <li>Another accomplishment with measurable results where possible.</li>
+            <li>Technologies: List, of, key, tools.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <header class="item-header">
+            <div>
+              <h3>Previous Job Title</h3>
+              <p class="company">Previous Company · City, Country</p>
+            </div>
+            <p class="dates">Jan 2018 – Dec 2019</p>
+          </header>
+          <ul>
+            <li>Key accomplishment or responsibility.</li>
+            <li>Another bullet that highlights results.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="projects-heading" class="card">
+        <h2 id="projects-heading">Projects</h2>
+
+        <article class="item">
+          <header class="item-header">
+            <div>
+              <h3>Project Name</h3>
+              <p class="company">Short 1-line description of the project.</p>
+            </div>
+            <p class="dates">2024</p>
+          </header>
+          <ul>
+            <li>What you built and why it matters.</li>
+            <li>Technologies used, notable achievements, or metrics.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="education-heading" class="card">
+        <h2 id="education-heading">Education</h2>
+        <article class="item">
+          <header class="item-header">
+            <div>
+              <h3>Degree or Program</h3>
+              <p class="company">Institution Name · City, Country</p>
+            </div>
+            <p class="dates">2015 – 2019</p>
+          </header>
+          <p>Optional: brief description, honors, or key coursework.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          © <span id="current-year"></span> Your Name. Built with a simple HTML/CSS
+          résumé template.
+        </p>
+      </div>
+      <script src="script.js"></script>
+    </footer>
+  </body>
+</html>

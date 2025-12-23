@@ -1,0 +1,34 @@
+Résumé Web Template
+====================
+
+This is a minimal, responsive résumé / CV web page starter template.
+
+Features
+--------
+- Clean, single-page layout for your professional résumé
+- Sections for summary, skills, experience, projects, and education
+- Responsive design that works on desktop and mobile
+- Print-friendly styling for exporting to PDF
+- Tiny JavaScript enhancement to keep the footer year up to date
+
+Getting Started
+---------------
+1. Open `index.html` and replace the placeholder text with your own details.
+2. Adjust styles in `styles.css` (colors, fonts, spacing) to match your personal brand.
+3. Optionally, extend `script.js` with any interactive behavior you need.
+
+Preview
+-------
+You can open `index.html` directly in your browser or serve it with a simple HTTP server, for example:
+
+- Using Python 3: `python -m http.server 8000` (then visit http://localhost:8000)
+
+Customization Ideas
+-------------------
+- Add more projects or experience items as needed
+- Swap fonts to a custom font from a provider like Google Fonts
+- Add a dark/light mode toggle if desired
+
+License
+-------
+You can use and modify this template freely for your own résumé.
